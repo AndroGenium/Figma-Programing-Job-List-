@@ -1,0 +1,161 @@
+@use 'DesktopSizes';
+@use 'MobileSizes';
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap');
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box
+}
+
+
+
+
+
+
+// global size and min-maxs
+body{
+  display: flex;
+  justify-content: center;
+  
+  height: auto;
+  width: auto;
+  
+}
+p, h3, h5{
+  font-family: 'League Spartan', sans-serif;
+}
+
+h5{
+  font-size: 13px;
+}
+
+.MainLists{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  
+
+}
+
+.features{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+   
+.nf{
+  
+  display: flex;
+  gap: 12.5px;
+  
+  .new{  
+    width: 51px;
+    background-color:#79a4a4;
+    height: 24px;
+    border-radius: 20px;
+    color: #fafcfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: -0.10769230872392654px;
+    text-align: left;
+  }
+  .featured
+  {
+    width: 79px;
+    background-color:#141717;
+    height: 24px;
+    border-radius: 20px;
+    color: #fafcfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: -0.10769230872392654px;
+    text-align: left;
+  }
+} 
+     
+.LTL{
+  display: flex;
+  gap: 1em;
+  color:#7c7e7e
+}
+
+
+.categories{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  
+  .categorie{
+    
+    background-color:#f1f6f6;
+    height: 30px;
+    border-radius: 4px;
+    color:#79a4a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding:  0 12px;
+    
+    line-height: 13px;
+    letter-spacing: -0.10769230872392654px;
+    text-align: left;
+  }
+}
+
+.holder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+
+}
+
+.ai{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.banner{
+  background-image: url("/src/assets/Combined/Shape.png");
+}                                          
+//opeli ver gevige es kaci rato ar mushaobs  A
+//                                           |
+//                                           |
+//                                           |
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  gap: 7.5px;
+}
+
+.Job{
+  display: flex;
+  flex-direction: column;
+  gap: 7.5px;
+}
+
+.brandname{
+  color: #79a4a4;
+}

@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap");
+@media only screen and (min-width: 1050px) {
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e0edee;
+    height: 2088px;
+    width: 1440px;
+  }
+  .holder {
+    background-color: white;
+    width: 1110px;
+    height: 152px;
+    border-radius: 15px;
+  }
+  .card {
+    width: 1030px;
+    height: 89px;
+  }
+  .invisibleline {
+    display: none;
+  }
+  p {
+    font-size: 20px;
+  }
+  .MainLists {
+    gap: 30px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e0edee;
+    width: 500px;
+    height: 4200px;
+  }
+  .holder {
+    background-color: white;
+    height: 152px;
+    border-radius: 15px;
+    width: 400px;
+    height: 320px;
+    position: relative;
+  }
+  .card {
+    align-items: flex-start;
+    width: 350px;
+    height: 89px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .invisibleline {
+    height: 1px;
+    width: 350px;
+    background-color: black;
+  }
+  p {
+    font-size: 20px;
+  }
+  .avatar {
+    position: absolute;
+    left: 40px;
+    top: -45px;
+  }
+  .intro {
+    position: absolute;
+    left: 70px;
+    top: 75px;
+    display: flex;
+  }
+  .categories {
+    position: absolute;
+    bottom: 30px;
+    left: 43px;
+  }
+  .invisibleline {
+    position: absolute;
+    top: 185px;
+  }
+  .MainLists {
+    gap: 80px;
+  }
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: auto;
+}
+
+p, h3, h5 {
+  font-family: "League Spartan", sans-serif;
+}
+
+h5 {
+  font-size: 13px;
+}
+
+.MainLists {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nf {
+  display: flex;
+  gap: 12.5px;
+}
+.nf .new {
+  width: 51px;
+  background-color: #79a4a4;
+  height: 24px;
+  border-radius: 20px;
+  color: #fafcfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 13px;
+  letter-spacing: -0.1076923087px;
+  text-align: left;
+}
+.nf .featured {
+  width: 79px;
+  background-color: #141717;
+  height: 24px;
+  border-radius: 20px;
+  color: #fafcfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 13px;
+  letter-spacing: -0.1076923087px;
+  text-align: left;
+}
+
+.LTL {
+  display: flex;
+  gap: 1em;
+  color: #7c7e7e;
+}
+
+.categories {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.categories .categorie {
+  background-color: #f1f6f6;
+  height: 30px;
+  border-radius: 4px;
+  color: #79a4a4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 0 12px;
+  line-height: 13px;
+  letter-spacing: -0.1076923087px;
+  text-align: left;
+}
+
+.holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ai {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.banner {
+  background-image: url("/src/assets/Combined/Shape.png");
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 7.5px;
+}
+
+.Job {
+  display: flex;
+  flex-direction: column;
+  gap: 7.5px;
+}
+
+.brandname {
+  color: #79a4a4;
+}

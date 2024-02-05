@@ -1,0 +1,35 @@
+//desktop version
+@media only screen and (min-width:1050px) {
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #e0edee;
+        height: 2088px;
+        width: 1440px;
+      }
+      
+      
+      .holder{    
+        background-color: white;
+        width: 1110px;
+        height: 152px;
+        border-radius: 15px;
+
+      }
+      .card{
+
+        width: 1030px;
+        height: 89px;
+      }
+      .invisibleline{
+        display: none;
+      }
+      p{
+        font-size: 20px;
+      }
+      .MainLists{
+        gap: 30px;
+      }
+}

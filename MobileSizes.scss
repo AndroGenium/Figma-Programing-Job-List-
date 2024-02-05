@@ -1,0 +1,70 @@
+//mobile version
+@media only screen and (max-width:1050px) {
+        main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: #e0edee;
+            width: 500px;
+            height: 4200px;
+        
+        }
+      
+      
+      .holder{    
+        background-color: white;
+        
+        height: 152px;
+        border-radius: 15px;
+        width: 400px;
+        height: 320px;
+        position: relative;
+
+      }
+      .card{
+        align-items: flex-start;
+        width:  350px;
+        height: 89px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+        
+      }
+      .invisibleline{
+        height: 1px;
+        width: 350px;
+        background-color: black;
+      }
+      p{
+        font-size: 20px;
+      }
+      .avatar{
+        position: absolute;
+        left: 40px;
+        top: -45px;
+      }
+      .intro{
+        position: absolute;
+        left: 70px;
+        top: 75px;
+        display: flex;;
+      }
+
+      .categories{
+        position: absolute;
+        bottom: 30px;
+        left: 43px;
+      }
+
+      .invisibleline{
+        position: absolute;
+        top: 185px;
+      }
+    
+      .MainLists{
+        gap: 80px;
+      }
+    
+}
